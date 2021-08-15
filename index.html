@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Авторские букеты в СПб</title>
+  <!-- Подключаем шрифты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <div class="grid">
+    <!-- Создаем хедер -->
+    <header class="header">
+      <!-- Добавляем класс ограничивающий контейнер -->
+        <div class="container">
+            <!-- Добавляем логотип -->
+            <div class="logo">
+            <a href="index.html"><img src="img/logo.svg" alt="Логотип"></a>
+          </div>
+          <!-- Добавляем главное меню -->
+          <nav class="main_menu">
+            <ul class="main_menu_list">
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Доставка и оплата</a></li>
+              <li><a href="#otzov">Отзывы</a></li>
+              <li><a href="#">Спецпредложения</a></li>
+              <li><a href="#contact">Контакты</a></li>
+              <li><a href="#">Корзина</a></li>
+            </ul>
+          </nav>
+          <!-- Добавляем контейнер для флекс элементов -->
+          <div class="header_box">
+            <!-- Добавляем первый флекс элемент -->
+            <div class="header_box_element1">
+              <h1>Авторские букеты <i>в Петербурге</i></h1>
+              <p>Оригинальные свежие букеты с доставкой по всему городу</p>
+              <!-- Добавляем контейнер стилизацию кнопки -->
+              <div class="button">
+                <button type="button" name="button">Смотреть каталог</button>
+              </div>
+            </div>
+            <!-- Добавляем второй флекс элемент -->
+            <div class="header_box_element2">
+              <img src="img/bouquet1.png" alt="Букет цветов">
+            </div>
+            <!-- Добавляем третий флекс элемент -->
+            <div class="header_box_element3">
+              <img src="img/bouquet_header2.png" alt="Букет роз">
+            </div>
+          </div>
+        </div>
+
+    </header>
+    <main>
+      <!-- Добавляем ограничивающий контейнер -->
+      <div class="container">
+        <!-- Добавляем контейнер для элементов преимущества -->
+        <div class="benefits">
+            <!-- Добавляем первый флекс элемент Доставка -->
+            <div class="ben_dostavka">
+            <!-- Фоновое изображение  <img src="img/icon/dostavka.svg" alt=""> -->
+              <!-- Добавляем текст -->
+              <div class="ben_text">
+                <h3>Быстрая доставка</h3>
+                <p>Можем собрать букет и передать его в доставку всего за час.</p>
+              </div>
+            </div>
+            <!-- Добавляем второй флекс элемент Свежие цветы -->
+            <div class="ben_flouer">
+              <!-- Фоновое изображение <img src="img/icon/bouquet.svg" alt="">-->
+              <!-- Добавляем текст -->
+              <div class="ben_text">
+                <h3>Всегда свежие цветы</h3>
+                <p>Тщательно следим за состоянием цветов, а опытные флористы отбирают для букетов каждый цветок.</p>
+              </div>
+            </div>
+            <!-- Добавляем третий флекс элемент Фото-->
+            <div class="ben_foto">
+            <!-- Фоновое изображение   <img src="img/icon/foto.svg" alt="">-->
+              <!-- Добавляем текст -->
+              <div class="ben_text">
+                <h3>Отправляем фото цветов</h3>
+                <p>Перед доставкой сделаем фотографию букета и отправим вам.</p>
+              </div>
+            </div>
+        </div>
+        <!-- Добавляем контейнер для элементов слайдера -->
+        <div class="slaider">
+          <h2 class="title">
+            Популярные букеты
+          </h2>
+          <!-- Добавляем контейнер для элементов популярные букеты -->
+          <div class="slide">
+            <div class="slide_text">
+              <p class="slide_text_label">Букет «Нежность»</p>
+              <p>Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+              <p>30 × 40 см</p>
+              <p class="slide_text_label">3600 руб.</p>
+              <div class="button">
+                <button type="button" name="button">Заказать</button>
+              </div>
+            </div>
+            <div class="slide_img">
+              <img src="img/bouquet_slaider.png" alt="Букет «Нежность»">
+            </div>
+          </div>
+          <div class="strela">
+            <img src="img/icon/strela_levo.svg" alt="">
+            <img src="img/icon/strela_pravo.svg" alt="">
+          </div>
+        </div>
+        <!-- Добавляем контейнер для элементов ссылки на изображения -->
+        <div class="catalog">
+          <div class="catalog_box">
+            <a href="#"> <img src="img/bouquet_cat_weit.png" alt="Свадебный букет"></a>
+            <div class="catalog_text">
+              <p class="catalog_title">Свадебные букеты</p>
+              <p class="catalog_t">Букеты для невест</p>
+            </div>
+          </div>
+            <div class="catalog_box">
+              <a href="#"> <img src="img/bouquet_peony.png" alt="Букет с пионами"></a>
+              <div class="catalog_text">
+                <p class="catalog_title">Букеты с пионами</p>
+                <p class="catalog_t">Букеты с сезонными пионами</p>
+              </div>
+            </div>
+              <div class="catalog_box">
+                <a href="#"> <img src="img/bouquet_catalog.png" alt="Букеты в ассортименте"></a>
+                <div class="catalog_text">
+                  <p class="catalog_title">Выбрать букет</p>
+                  <p class="catalog_t">Букеты в ассортименте</p>
+                </div>
+              </div>
+          </div>
+
+        <!-- Добавляем контейнер для элементов Скидка на первый заказ -->
+        <div class="sale">
+          <div class="sale_text">
+            <p class="sale_text_title">Скидка 10% на первый заказ</p>
+            <p class="sale_text_text">Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
+          </div>
+          <!-- Фоновое изображение <img src="img/bouquet_skidka.png" alt=""> -->
+        </div>
+        <!-- Добавляем контейнер для  элементов 4 шага до букета -->
+        <div class="fourstep">
+          <h2 class="title">4 шага к идеальному букету</h2>
+          <!-- 4 шага до букета Шаг 1 -->
+          <div class="fourstep_step">
+            <!-- Фоновое изображение <img src="zakaz.svg" alt=""> -->
+            <p class="fourstep_step_title">Заказ</p>
+            <p class="fourstep_step_text">Выбирите понравившейся букет из каталога и оформите заказ</p>
+          </div>
+            <!-- 4 шага до букета Шаг 2 -->
+          <div class="fourstep_step">
+            <!-- Фоновое изображение <img src="operator.svg" alt=""> -->
+            <p class="fourstep_step_title">Уточнение деталей</p>
+            <p class="fourstep_step_text">Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</p>
+          </div>
+            <!-- 4 шага до букета Шаг 3 -->
+          <div class="fourstep_step">
+            <!-- Фоновое изображение  <img src="oplata.svg" alt=""> -->
+            <p class="fourstep_step_title">Оплата</p>
+            <p class="fourstep_step_text">Оплатить заказ можно онлайн на сайте или при получении</p>
+          </div>
+            <!-- 4 шага до букета Шаг 4 -->
+          <div class="fourstep_step">
+            <!-- Фоновое изображение <img src="dostavka.svg" alt="">-->
+            <p class="fourstep_step_title">Доставка</p>
+            <p class="fourstep_step_text">Курьер позвонит за час до прибытия и доставит заказ вовремя</p>
+          </div>
+        </div>
+        <!-- Добавляем контейнер для элементов Следите за новостями -->
+        <div class="news">
+          <h2 class="title news_title">Следите за нашими новостями</h2>
+          <p class="news_text">Подписывайтесь на наши соцсети и узнавайте о новинках и акциях первым.</p>
+          <!--Надо добавить иконки соц сетей, но пока думаю как лучше это сделать -->
+          <!-- Фоновое изображение <img src="img/bouquet_news1.png" alt="">-->
+          <!-- Фоновое изображение <img src="img/bouquet_news2.png" alt="">-->
+          <!-- Фоновое изображение <img src="img/bouquet_news3.png" alt="" class="img_big">-->
+        </div>
+        <!-- Добавляем контейнер для  элементов Отзывы -->
+        <div class="otzov" id="otzov">
+          <h2 class="title">Отзывы</h2>
+          <!-- Первый отзыв -->
+          <div class="otzov_box">
+            <p class="otzov_box_text">Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!
+            </p>
+            <p class="otzov_box_autor">Марина</p>
+          </div>
+          <!-- Второй отзыв -->
+          <div class="otzov_box">
+            <p class="otzov_box_text">Внимательные флористы, вежливые. Магазин находится прям рядом с метро. Букет очень понравился, буду ещё заказывать!
+            </p>
+            <p class="otzov_box_autor">Татьяна</p>
+          </div>
+          <!-- Третий отзыв -->
+          <div class="otzov_box">
+            <p class="otzov_box_text">Выбор букетов на любой вкус и цену. Бывают хорошие скидки, а флористы всегда помогут и точно соберут красивый букет!
+            </p>
+            <p class="otzov_box_autor">Ольга</p>
+          </div>
+
+        </div>
+        <!-- Добавляем контейнер для  элементов Карта -->
+        <div class="map" id="contact">
+          <img src="img/map.png" alt="Карта">
+          <div class="map_box">
+            <p class="title">Мы ждем вас</p>
+            <div class="map_box_block">
+              <div class="map_box_block_elem">
+                <p>Приходите к нам:</p>
+                <p>Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+              </div>
+              <div class="map_box_block_elem">
+                <p>Режим работы:</p>
+                <p>Пн-Вск, с 9-00 до 20-00</p>
+              </div>
+              <div class="map_box_block_elem">
+                <p>Позвоните нам:</p>
+                <a href="tel:+78129834119">+ 7 (812) 983-47-19</a>
+              </div>
+              <div class="map_box_block_elem">
+                <p>Напишите нам:</p>
+                <a href="mailto:info@botanika.ru">info@botanika.ru</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </main>
+    <footer class="footer">
+      <!-- Добавляем класс ограничивающий контейнер -->
+      <div class="container">
+        <!-- Добавляем логотип -->
+            <a href="index.html"><img src="img/logo.svg" alt=""></a>
+        <nav class="footer_menu">
+          <ul class="footer_menu_list">
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Доставка и оплата</a></li>
+            <li><a href="#otzov">Отзывы</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#contact">Контакты</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
